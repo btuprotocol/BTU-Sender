@@ -1,0 +1,28 @@
+{
+  "name": "btu-sender",
+  "version": "1.0.0",
+  "description": "Node.js client for BTU request API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BTU Protocol",
+  "license": "Proprietary license",
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btuprotocol/BTU-Sender.git"
+  },
+  "keywords": [
+    "btu",
+    "crypto",
+    "sender"
+  ],
+  "bugs": {
+    "url": "https://github.com/btuprotocol/BTU-Sender/issues"
+  },
+  "homepage": "https://github.com/btuprotocol/BTU-Sender#readme"
+}
