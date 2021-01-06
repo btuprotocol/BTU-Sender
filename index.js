@@ -6,7 +6,7 @@ const crypto = require('crypto')
  *
  * @param {string} privateKeyString Private key
  * @param {string} publicKeyString Public key
- * @param {boolean} url Server url
+ * @param {string} url Server url
  */
 function BTUSender(privateKeyString, publicKeyString, url) {
   this.privateKey = crypto.createPrivateKey(privateKeyString)
